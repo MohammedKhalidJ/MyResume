@@ -1,2 +1,0 @@
-# MyResume
-Created with CodeSandbox

@@ -1,0 +1,16 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.first-section {
+  position: absolute;
+  top: 92%;
+}
+
+.typist-text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  font-weight: bold;
+}
