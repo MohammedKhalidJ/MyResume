@@ -50,7 +50,7 @@ const cards = data => (
             data-toggle="modal"
             data-target={`#${data.id}id`}
           >
-            See Profile
+            See Profile <i class="fas fa-user-graduate"></i>
           </button>
         </div>
       </div>
