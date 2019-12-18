@@ -4,8 +4,10 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
+  "homepage": "https://mohammedkhalidj.github.io/MyResume/",
   "dependencies": {
     "bootstrap": "4.3.1",
+    "gh-pages": "2.1.1",
     "jquery": "3.4.1",
     "popper.js": "1.15.0",
     "react": "16.8.6",
@@ -18,15 +20,12 @@
     "typescript": "3.3.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
